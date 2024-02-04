@@ -1,0 +1,31 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Testing small node based codes",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "keywords": [
+    "NA"
+  ],
+  "author": "Deepak Jain",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  }
+}
