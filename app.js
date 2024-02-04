@@ -1,5 +1,9 @@
-const getAppMessage = () => {
-    return "hello";
-}
+// const getAppMessage = () => {
+//     return "hello";
+// }
 
-export { getAppMessage };
+// export { getAppMessage };
+
+module.exports = function() {
+        return "hello";
+}
